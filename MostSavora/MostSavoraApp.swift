@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct MostSavoraApp: App {
+    @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if hasCompletedOnboarding {
+                MainView()
+            } else {
+                OnboardingView()
+            }
         }
     }
 }
