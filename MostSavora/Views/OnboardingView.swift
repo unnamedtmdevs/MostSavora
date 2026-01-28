@@ -14,31 +14,31 @@ struct OnboardingView: View {
     let pages = [
         OnboardingPage(
             title: "Welcome to Most Savora",
-            description: "Your smart shopping companion for finding the best deals and comparing prices across stores",
+            description: "Your ultimate shopping companion for finding the best deals and comparing prices across multiple stores in real-time",
             imageName: "cart.fill",
             color: ColorTheme.accentOrange
         ),
         OnboardingPage(
-            title: "Compare Prices",
-            description: "See real-time price comparisons from multiple stores and find the best deals instantly",
+            title: "Compare Prices Instantly",
+            description: "Browse thousands of products and compare prices from your favorite stores. Save money on every purchase with real-time price tracking",
             imageName: "chart.bar.fill",
             color: ColorTheme.primaryBackground
         ),
         OnboardingPage(
-            title: "Smart Wishlists",
-            description: "Create customizable wishlists and get notified when prices drop to your target",
+            title: "Smart Wishlists & Price Alerts",
+            description: "Save products you love and set price alerts. We'll notify you instantly when your favorite items go on sale",
             imageName: "heart.fill",
             color: ColorTheme.accentOrange
         ),
         OnboardingPage(
-            title: "Community Reviews",
-            description: "Read authentic reviews from other shoppers and make informed decisions",
+            title: "Trusted Community Reviews",
+            description: "Read verified reviews from real shoppers. Make informed purchasing decisions with ratings from our community of millions",
             imageName: "star.fill",
             color: ColorTheme.primaryBackground
         ),
         OnboardingPage(
-            title: "Never Miss a Deal",
-            description: "Get instant notifications about exclusive deals and limited-time offers",
+            title: "Exclusive Deals & Offers",
+            description: "Get personalized deal notifications based on your interests. Never miss out on flash sales and special promotions again",
             imageName: "bell.fill",
             color: ColorTheme.accentOrange
         )

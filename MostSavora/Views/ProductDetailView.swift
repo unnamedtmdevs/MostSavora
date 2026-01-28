@@ -20,16 +20,9 @@ struct ProductDetailView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
                     // Product image
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 20)
-                            .fill(ColorTheme.primaryBackground.opacity(0.1))
-                            .frame(height: 250)
-                        
-                        Image(systemName: product.imageURL)
-                            .font(.system(size: 100))
-                            .foregroundColor(ColorTheme.primaryBackground)
-                    }
-                    .padding()
+                    ProductImageView(imageName: product.name, size: 250)
+                        .frame(height: 250)
+                        .padding()
                     
                     VStack(alignment: .leading, spacing: 12) {
                         // Product name

@@ -126,15 +126,8 @@ struct DealCard: View {
             
             HStack(spacing: 16) {
                 // Product image
-                ZStack {
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(ColorTheme.primaryBackground.opacity(0.1))
-                        .frame(width: 100, height: 100)
-                    
-                    Image(systemName: deal.imageURL)
-                        .font(.system(size: 40))
-                        .foregroundColor(ColorTheme.primaryBackground)
-                }
+                ProductImageView(imageName: deal.productName, size: 100)
+                    .frame(width: 100, height: 100)
                 
                 VStack(alignment: .leading, spacing: 8) {
                     // Deal title

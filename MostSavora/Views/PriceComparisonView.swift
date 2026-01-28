@@ -147,15 +147,8 @@ struct ProductCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             // Product image
-            ZStack {
-                RoundedRectangle(cornerRadius: 12)
-                    .fill(ColorTheme.primaryBackground.opacity(0.1))
-                    .frame(height: 140)
-                
-                Image(systemName: product.imageURL)
-                    .font(.system(size: 50))
-                    .foregroundColor(ColorTheme.primaryBackground)
-            }
+            ProductImageView(imageName: product.name, size: 140)
+                .frame(height: 140)
             
             // Product name
             Text(product.name)
@@ -163,6 +156,7 @@ struct ProductCard: View {
                 .fontWeight(.semibold)
                 .foregroundColor(ColorTheme.textOnLight)
                 .lineLimit(2)
+                .frame(height: 38, alignment: .top)
                 .fixedSize(horizontal: false, vertical: true)
             
             // Rating

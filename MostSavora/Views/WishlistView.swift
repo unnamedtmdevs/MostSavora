@@ -141,15 +141,8 @@ struct WishlistItemRow: View {
     var body: some View {
         HStack(spacing: 12) {
             // Product image
-            ZStack {
-                RoundedRectangle(cornerRadius: 8)
-                    .fill(ColorTheme.primaryBackground.opacity(0.1))
-                    .frame(width: 60, height: 60)
-                
-                Image(systemName: item.productImageURL)
-                    .font(.system(size: 25))
-                    .foregroundColor(ColorTheme.primaryBackground)
-            }
+            ProductImageView(imageName: item.productName, size: 60)
+                .frame(width: 60, height: 60)
             
             VStack(alignment: .leading, spacing: 4) {
                 Text(item.productName)
@@ -250,15 +243,8 @@ struct EditWishlistItemSheet: View {
             Form {
                 Section(header: Text("Product")) {
                     HStack {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 8)
-                                .fill(ColorTheme.primaryBackground.opacity(0.1))
-                                .frame(width: 60, height: 60)
-                            
-                            Image(systemName: item.productImageURL)
-                                .font(.system(size: 25))
-                                .foregroundColor(ColorTheme.primaryBackground)
-                        }
+                        ProductImageView(imageName: item.productName, size: 60)
+                            .frame(width: 60, height: 60)
                         
                         VStack(alignment: .leading) {
                             Text(item.productName)

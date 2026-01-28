@@ -123,6 +123,269 @@ class NetworkService: ObservableObject {
                 ],
                 averageRating: 4.8,
                 reviewCount: 5670
+            ),
+            Product(
+                name: "Apple Watch Series 9",
+                description: "Advanced fitness tracking with heart rate monitoring and GPS",
+                category: .electronics,
+                imageURL: "applewatch",
+                prices: [
+                    StorePrice(storeName: "Apple Store", storeID: stores[0].id, price: 399.00),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 389.00),
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 379.00)
+                ],
+                averageRating: 4.7,
+                reviewCount: 2340
+            ),
+            Product(
+                name: "MacBook Air M2",
+                description: "Lightweight laptop with M2 chip, 13-inch display, and all-day battery",
+                category: .electronics,
+                imageURL: "laptopcomputer",
+                prices: [
+                    StorePrice(storeName: "Apple Store", storeID: stores[0].id, price: 1199.00),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 1149.00),
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 1099.00)
+                ],
+                averageRating: 4.9,
+                reviewCount: 4560
+            ),
+            Product(
+                name: "iPad Pro 12.9",
+                description: "Professional tablet with M2 chip and Liquid Retina XDR display",
+                category: .electronics,
+                imageURL: "ipad",
+                prices: [
+                    StorePrice(storeName: "Apple Store", storeID: stores[0].id, price: 1099.00),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 1079.00),
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 1049.00)
+                ],
+                averageRating: 4.8,
+                reviewCount: 1890
+            ),
+            Product(
+                name: "Nintendo Switch OLED",
+                description: "Gaming console with vibrant OLED screen and enhanced audio",
+                category: .toys,
+                imageURL: "gamecontroller.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 349.99),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 349.99),
+                    StorePrice(storeName: "Target", storeID: stores[8].id, price: 349.99)
+                ],
+                averageRating: 4.9,
+                reviewCount: 3450
+            ),
+            Product(
+                name: "PlayStation 5",
+                description: "Next-gen gaming console with 4K gaming and ultra-fast SSD",
+                category: .toys,
+                imageURL: "gamecontroller.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 499.99),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 499.99),
+                    StorePrice(storeName: "Target", storeID: stores[8].id, price: 499.99)
+                ],
+                averageRating: 4.8,
+                reviewCount: 5670
+            ),
+            Product(
+                name: "Adidas Ultraboost 23",
+                description: "Premium running shoes with responsive BOOST cushioning",
+                category: .sports,
+                imageURL: "figure.run",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 189.99),
+                    StorePrice(storeName: "Foot Locker", storeID: stores[5].id, price: 199.99),
+                    StorePrice(storeName: "Nike Store", storeID: stores[4].id, price: 189.99)
+                ],
+                averageRating: 4.7,
+                reviewCount: 890
+            ),
+            Product(
+                name: "Canon EOS R6",
+                description: "Full-frame mirrorless camera with 20MP sensor and 4K video",
+                category: .electronics,
+                imageURL: "camera.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 2499.00),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 2499.00)
+                ],
+                averageRating: 4.9,
+                reviewCount: 780
+            ),
+            Product(
+                name: "Bose QuietComfort 45",
+                description: "Premium noise-cancelling headphones with 24-hour battery",
+                category: .electronics,
+                imageURL: "headphones",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 329.00),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 329.00)
+                ],
+                averageRating: 4.7,
+                reviewCount: 2340
+            ),
+            Product(
+                name: "The North Face Jacket",
+                description: "Waterproof outdoor jacket with insulation for cold weather",
+                category: .clothing,
+                imageURL: "tshirt.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 299.00),
+                    StorePrice(storeName: "Target", storeID: stores[8].id, price: 299.00)
+                ],
+                averageRating: 4.6,
+                reviewCount: 560
+            ),
+            Product(
+                name: "Instant Pot Duo",
+                description: "7-in-1 electric pressure cooker for fast and easy meals",
+                category: .home,
+                imageURL: "house.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 99.99),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 99.99),
+                    StorePrice(storeName: "Target", storeID: stores[8].id, price: 109.99)
+                ],
+                averageRating: 4.8,
+                reviewCount: 12340
+            ),
+            Product(
+                name: "KitchenAid Stand Mixer",
+                description: "Professional 5-quart mixer for baking and cooking",
+                category: .home,
+                imageURL: "house.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 379.99),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 399.99),
+                    StorePrice(storeName: "Target", storeID: stores[8].id, price: 379.99)
+                ],
+                averageRating: 4.9,
+                reviewCount: 3450
+            ),
+            Product(
+                name: "Fitbit Charge 6",
+                description: "Advanced fitness tracker with heart rate and GPS tracking",
+                category: .sports,
+                imageURL: "figure.run",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 159.99),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 159.99),
+                    StorePrice(storeName: "Target", storeID: stores[8].id, price: 159.99)
+                ],
+                averageRating: 4.5,
+                reviewCount: 1890
+            ),
+            Product(
+                name: "Samsung 55\" 4K TV",
+                description: "Crystal UHD smart TV with HDR and built-in streaming apps",
+                category: .electronics,
+                imageURL: "tv.fill",
+                prices: [
+                    StorePrice(storeName: "Samsung Store", storeID: stores[3].id, price: 699.99),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 649.99),
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 629.99)
+                ],
+                averageRating: 4.6,
+                reviewCount: 2340
+            ),
+            Product(
+                name: "Nespresso Vertuo",
+                description: "Single-serve coffee maker with barcode scanning technology",
+                category: .home,
+                imageURL: "cup.and.saucer.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 179.99),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 189.99),
+                    StorePrice(storeName: "Target", storeID: stores[8].id, price: 179.99)
+                ],
+                averageRating: 4.7,
+                reviewCount: 4560
+            ),
+            Product(
+                name: "Logitech MX Master 3S",
+                description: "Advanced wireless mouse with ergonomic design and precision tracking",
+                category: .electronics,
+                imageURL: "computermouse.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 99.99),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 99.99)
+                ],
+                averageRating: 4.8,
+                reviewCount: 890
+            ),
+            Product(
+                name: "Yeti Rambler Tumbler",
+                description: "Insulated stainless steel tumbler that keeps drinks cold for hours",
+                category: .home,
+                imageURL: "cup.and.saucer.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 34.99),
+                    StorePrice(storeName: "Target", storeID: stores[8].id, price: 34.99)
+                ],
+                averageRating: 4.9,
+                reviewCount: 5670
+            ),
+            Product(
+                name: "Ray-Ban Wayfarer Sunglasses",
+                description: "Classic sunglasses with UV protection and timeless style",
+                category: .clothing,
+                imageURL: "sunglasses.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 153.00),
+                    StorePrice(storeName: "Target", storeID: stores[8].id, price: 159.99)
+                ],
+                averageRating: 4.7,
+                reviewCount: 3450
+            ),
+            Product(
+                name: "Hydro Flask Water Bottle",
+                description: "Insulated water bottle that keeps drinks cold for 24 hours",
+                category: .sports,
+                imageURL: "drop.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 44.95),
+                    StorePrice(storeName: "Target", storeID: stores[8].id, price: 44.95)
+                ],
+                averageRating: 4.8,
+                reviewCount: 6780
+            ),
+            Product(
+                name: "Roomba j7+",
+                description: "Self-emptying robot vacuum with obstacle avoidance",
+                category: .home,
+                imageURL: "circle.grid.cross.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 799.99),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 799.99)
+                ],
+                averageRating: 4.5,
+                reviewCount: 2340
+            ),
+            Product(
+                name: "Anker PowerCore 20000",
+                description: "High-capacity portable charger with fast charging",
+                category: .electronics,
+                imageURL: "battery.100.bolt",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 49.99),
+                    StorePrice(storeName: "Best Buy", storeID: stores[1].id, price: 49.99)
+                ],
+                averageRating: 4.7,
+                reviewCount: 8900
+            ),
+            Product(
+                name: "Under Armour Sports Bag",
+                description: "Durable gym bag with multiple compartments and water-resistant fabric",
+                category: .sports,
+                imageURL: "bag.fill",
+                prices: [
+                    StorePrice(storeName: "Amazon", storeID: stores[2].id, price: 54.99),
+                    StorePrice(storeName: "Nike Store", storeID: stores[4].id, price: 59.99)
+                ],
+                averageRating: 4.6,
+                reviewCount: 1230
             )
         ]
     }
@@ -340,6 +603,69 @@ class NetworkService: ObservableObject {
                 content: "This product has changed my daily routine for the better. Easy to use and very reliable. Customer service was also excellent!",
                 date: Calendar.current.date(byAdding: .day, value: -15, to: Date())!,
                 helpfulCount: 89,
+                verifiedPurchase: true
+            ),
+            Review(
+                authorName: "David P.",
+                rating: 5.0,
+                title: "Perfect!",
+                content: "Exactly as described. Fast shipping and excellent packaging. The product works perfectly and looks great!",
+                date: Calendar.current.date(byAdding: .day, value: -2, to: Date())!,
+                helpfulCount: 34,
+                verifiedPurchase: true
+            ),
+            Review(
+                authorName: "Jennifer L.",
+                rating: 4.0,
+                title: "Great quality",
+                content: "Really happy with this purchase. The build quality is solid and it does exactly what it's supposed to do.",
+                date: Calendar.current.date(byAdding: .day, value: -7, to: Date())!,
+                helpfulCount: 23,
+                verifiedPurchase: true
+            ),
+            Review(
+                authorName: "Robert W.",
+                rating: 5.0,
+                title: "Excellent value",
+                content: "For the price, this is an incredible product. I've been using it daily and couldn't be happier with my purchase.",
+                date: Calendar.current.date(byAdding: .day, value: -18, to: Date())!,
+                helpfulCount: 56,
+                verifiedPurchase: true
+            ),
+            Review(
+                authorName: "Amanda S.",
+                rating: 4.0,
+                title: "Very satisfied",
+                content: "Good product overall. A few minor quirks but nothing that would stop me from recommending it.",
+                date: Calendar.current.date(byAdding: .day, value: -10, to: Date())!,
+                helpfulCount: 19,
+                verifiedPurchase: true
+            ),
+            Review(
+                authorName: "Chris B.",
+                rating: 5.0,
+                title: "Love it!",
+                content: "This has become my go-to product. The quality is top-notch and it's incredibly easy to use. 10/10 would buy again!",
+                date: Calendar.current.date(byAdding: .day, value: -4, to: Date())!,
+                helpfulCount: 78,
+                verifiedPurchase: true
+            ),
+            Review(
+                authorName: "Michelle H.",
+                rating: 4.0,
+                title: "Good purchase",
+                content: "Happy with this buy. It does what it promises and the quality seems good. Time will tell how it holds up.",
+                date: Calendar.current.date(byAdding: .day, value: -20, to: Date())!,
+                helpfulCount: 15,
+                verifiedPurchase: true
+            ),
+            Review(
+                authorName: "Thomas G.",
+                rating: 5.0,
+                title: "Fantastic!",
+                content: "Been using this for a few weeks now and it's been perfect. Great design, great functionality, great price!",
+                date: Calendar.current.date(byAdding: .day, value: -14, to: Date())!,
+                helpfulCount: 42,
                 verifiedPurchase: true
             )
         ]
