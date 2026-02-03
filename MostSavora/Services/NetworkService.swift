@@ -21,8 +21,8 @@ class NetworkService: ObservableObject {
         
         return [
             Product(
-                name: "Premium Smartphone Pro",
-                description: "Latest flagship smartphone with advanced processor, titanium design, and professional camera system",
+                name: "Flagship Smartphone",
+                description: "Premium smartphone with advanced camera system and long battery life",
                 category: .electronics,
                 imageURL: "iphone.circle.fill",
                 prices: [
@@ -34,8 +34,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 1250
             ),
             Product(
-                name: "Ultra Android Phone",
-                description: "Flagship smartphone with AI features, stunning display, and powerful performance",
+                name: "Premium Smartphone",
+                description: "High-performance smartphone with stunning display and powerful features",
                 category: .electronics,
                 imageURL: "smartphone",
                 prices: [
@@ -47,8 +47,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 980
             ),
             Product(
-                name: "Premium Wireless Earbuds",
-                description: "Advanced wireless earbuds with active noise cancellation and spatial audio technology",
+                name: "Wireless Earbuds Pro",
+                description: "True wireless earbuds with noise cancellation and premium sound quality",
                 category: .electronics,
                 imageURL: "airpodspro",
                 prices: [
@@ -60,8 +60,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 3200
             ),
             Product(
-                name: "Sport Running Shoes Max",
-                description: "Comfortable running shoes with advanced air cushioning and breathable mesh design",
+                name: "Running Shoes",
+                description: "Comfortable athletic shoes with cushioning technology for runners",
                 category: .sports,
                 imageURL: "figure.run",
                 prices: [
@@ -73,8 +73,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 560
             ),
             Product(
-                name: "Premium Noise-Canceling Headphones",
-                description: "Industry-leading noise canceling headphones with exceptional sound quality and comfort",
+                name: "Noise-Canceling Headphones",
+                description: "Over-ear headphones with active noise cancellation and premium audio",
                 category: .electronics,
                 imageURL: "headphones",
                 prices: [
@@ -86,8 +86,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 2100
             ),
             Product(
-                name: "Classic Straight Fit Jeans",
-                description: "Timeless straight fit jeans with premium denim and classic styling",
+                name: "Classic Denim Jeans",
+                description: "Comfortable straight fit jeans made from quality denim fabric",
                 category: .clothing,
                 imageURL: "tshirt.fill",
                 prices: [
@@ -99,8 +99,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 890
             ),
             Product(
-                name: "Advanced Cordless Vacuum",
-                description: "High-tech cordless vacuum with laser detection and powerful suction technology",
+                name: "Cordless Vacuum Cleaner",
+                description: "Powerful cordless vacuum with advanced cleaning technology",
                 category: .home,
                 imageURL: "fanblades.fill",
                 prices: [
@@ -112,8 +112,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 1450
             ),
             Product(
-                name: "E-Reader Premium",
-                description: "Waterproof e-reader with high-resolution display and adjustable warm light",
+                name: "Digital E-Reader",
+                description: "Portable e-reader with high-resolution display for book lovers",
                 category: .books,
                 imageURL: "book.fill",
                 prices: [
@@ -125,8 +125,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 5670
             ),
             Product(
-                name: "Smart Fitness Watch",
-                description: "Advanced fitness tracking with heart rate monitoring, GPS, and health sensors",
+                name: "Fitness Smartwatch",
+                description: "Smartwatch with fitness tracking, heart rate monitoring, and GPS",
                 category: .electronics,
                 imageURL: "applewatch",
                 prices: [
@@ -138,8 +138,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 2340
             ),
             Product(
-                name: "Ultra-Thin Laptop Pro",
-                description: "Lightweight professional laptop with powerful processor, 13-inch display, and all-day battery",
+                name: "Professional Laptop",
+                description: "Lightweight laptop with powerful performance and all-day battery",
                 category: .electronics,
                 imageURL: "laptopcomputer",
                 prices: [
@@ -151,8 +151,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 4560
             ),
             Product(
-                name: "Professional Tablet 12.9",
-                description: "Professional tablet with powerful chip and premium high-resolution display",
+                name: "Professional Tablet",
+                description: "Large-screen tablet with high-resolution display for work and creativity",
                 category: .electronics,
                 imageURL: "ipad",
                 prices: [
@@ -164,8 +164,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 1890
             ),
             Product(
-                name: "Portable Gaming Console",
-                description: "Portable gaming system with vibrant OLED screen and enhanced audio",
+                name: "Handheld Gaming Device",
+                description: "Portable gaming console with vibrant screen and enhanced audio",
                 category: .toys,
                 imageURL: "gamecontroller.fill",
                 prices: [
@@ -177,8 +177,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 3450
             ),
             Product(
-                name: "Next-Gen Gaming Console",
-                description: "Advanced gaming console with 4K graphics and ultra-fast storage",
+                name: "Gaming Console",
+                description: "Home gaming console with high-definition graphics and fast performance",
                 category: .toys,
                 imageURL: "gamecontroller.fill",
                 prices: [
@@ -190,8 +190,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 5670
             ),
             Product(
-                name: "Professional Running Shoes",
-                description: "Premium running shoes with responsive energy-return cushioning technology",
+                name: "Performance Running Shoes",
+                description: "High-quality running shoes with cushioning and support for athletes",
                 category: .sports,
                 imageURL: "figure.run",
                 prices: [
@@ -203,8 +203,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 890
             ),
             Product(
-                name: "Professional Camera",
-                description: "Full-frame mirrorless camera with high-resolution sensor and 4K video capability",
+                name: "Digital Camera",
+                description: "High-resolution camera with video recording capability",
                 category: .electronics,
                 imageURL: "camera.fill",
                 prices: [
@@ -215,8 +215,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 780
             ),
             Product(
-                name: "Wireless Noise-Canceling Headphones",
-                description: "Premium noise-cancelling over-ear headphones with 24-hour battery life",
+                name: "Wireless Headphones",
+                description: "Comfortable over-ear headphones with long battery life",
                 category: .electronics,
                 imageURL: "headphones",
                 prices: [
@@ -227,8 +227,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 2340
             ),
             Product(
-                name: "Premium Outdoor Jacket",
-                description: "Waterproof outdoor jacket with premium insulation for cold weather protection",
+                name: "Outdoor Winter Jacket",
+                description: "Warm waterproof jacket with insulation for cold weather",
                 category: .clothing,
                 imageURL: "tshirt.fill",
                 prices: [
@@ -239,8 +239,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 560
             ),
             Product(
-                name: "Multi-Function Pressure Cooker",
-                description: "7-in-1 electric pressure cooker for fast and easy meal preparation",
+                name: "Electric Pressure Cooker",
+                description: "Multi-function electric cooker for quick meal preparation",
                 category: .home,
                 imageURL: "house.fill",
                 prices: [
@@ -252,8 +252,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 12340
             ),
             Product(
-                name: "Professional Stand Mixer",
-                description: "Professional 5-quart stand mixer perfect for baking and cooking",
+                name: "Stand Mixer",
+                description: "Powerful stand mixer perfect for baking and cooking",
                 category: .home,
                 imageURL: "house.fill",
                 prices: [
@@ -265,8 +265,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 3450
             ),
             Product(
-                name: "Advanced Fitness Tracker",
-                description: "Advanced fitness tracker with continuous heart rate and GPS tracking",
+                name: "Fitness Tracker Band",
+                description: "Wearable fitness tracker with heart rate and activity monitoring",
                 category: .sports,
                 imageURL: "figure.run",
                 prices: [
@@ -278,8 +278,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 1890
             ),
             Product(
-                name: "55\" Ultra HD Smart TV",
-                description: "Crystal clear 4K smart TV with HDR and built-in streaming applications",
+                name: "Large Screen Smart TV",
+                description: "High-definition smart TV with streaming capabilities",
                 category: .electronics,
                 imageURL: "tv.fill",
                 prices: [
@@ -291,8 +291,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 2340
             ),
             Product(
-                name: "Premium Coffee Maker",
-                description: "Single-serve coffee maker with smart brewing technology",
+                name: "Single-Serve Coffee Maker",
+                description: "Convenient coffee maker for single servings with quick brewing",
                 category: .home,
                 imageURL: "cup.and.saucer.fill",
                 prices: [
@@ -304,8 +304,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 4560
             ),
             Product(
-                name: "Ergonomic Wireless Mouse",
-                description: "Advanced wireless mouse with ergonomic design and precision tracking technology",
+                name: "Wireless Computer Mouse",
+                description: "Ergonomic wireless mouse with precision tracking",
                 category: .electronics,
                 imageURL: "computermouse.fill",
                 prices: [
@@ -316,8 +316,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 890
             ),
             Product(
-                name: "Insulated Steel Tumbler",
-                description: "Double-wall insulated stainless steel tumbler that keeps drinks cold for hours",
+                name: "Stainless Steel Tumbler",
+                description: "Insulated tumbler that keeps drinks at perfect temperature",
                 category: .home,
                 imageURL: "cup.and.saucer.fill",
                 prices: [
@@ -328,8 +328,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 5670
             ),
             Product(
-                name: "Classic Sunglasses",
-                description: "Timeless sunglasses with UV protection and classic styling",
+                name: "UV Protection Sunglasses",
+                description: "Stylish sunglasses with UV protection for eye safety",
                 category: .clothing,
                 imageURL: "sunglasses.fill",
                 prices: [
@@ -340,8 +340,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 3450
             ),
             Product(
-                name: "Insulated Water Bottle",
-                description: "Premium insulated water bottle that keeps drinks cold for 24 hours",
+                name: "Sports Water Bottle",
+                description: "Insulated water bottle for athletes and outdoor activities",
                 category: .sports,
                 imageURL: "drop.fill",
                 prices: [
@@ -352,8 +352,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 6780
             ),
             Product(
-                name: "Self-Emptying Robot Vacuum",
-                description: "Smart self-emptying robot vacuum with advanced obstacle avoidance",
+                name: "Robot Vacuum Cleaner",
+                description: "Smart robot vacuum with automatic cleaning and navigation",
                 category: .home,
                 imageURL: "circle.grid.cross.fill",
                 prices: [
@@ -364,8 +364,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 2340
             ),
             Product(
-                name: "High-Capacity Power Bank",
-                description: "High-capacity 20000mAh portable charger with fast charging technology",
+                name: "Portable Power Bank",
+                description: "High-capacity portable charger for smartphones and devices",
                 category: .electronics,
                 imageURL: "battery.100.bolt",
                 prices: [
@@ -376,8 +376,8 @@ class NetworkService: ObservableObject {
                 reviewCount: 8900
             ),
             Product(
-                name: "Professional Sports Bag",
-                description: "Durable sports bag with multiple compartments and water-resistant fabric",
+                name: "Athletic Gym Bag",
+                description: "Durable sports bag with compartments for gear and equipment",
                 category: .sports,
                 imageURL: "bag.fill",
                 prices: [
@@ -491,8 +491,8 @@ class NetworkService: ObservableObject {
         
         return [
             Deal(
-                title: "Flash Sale Special",
-                description: "Massive discount on premium flagship smartphone",
+                title: "Smartphone Flash Sale",
+                description: "Save big on flagship smartphone today only",
                 productID: products[0].id,
                 productName: products[0].name,
                 storeID: products[0].prices[2].storeID,
@@ -504,8 +504,8 @@ class NetworkService: ObservableObject {
                 category: products[0].category
             ),
             Deal(
-                title: "Weekend Flash Sale",
-                description: "Limited time offer on premium noise-canceling headphones",
+                title: "Audio Weekend Sale",
+                description: "Limited time offer on premium headphones",
                 productID: products[4].id,
                 productName: products[4].name,
                 storeID: products[4].prices[2].storeID,
@@ -517,8 +517,8 @@ class NetworkService: ObservableObject {
                 category: products[4].category
             ),
             Deal(
-                title: "Spring Clearance",
-                description: "Save big on premium athletic footwear",
+                title: "Athletic Footwear Sale",
+                description: "Big savings on running shoes this week",
                 productID: products[3].id,
                 productName: products[3].name,
                 storeID: products[3].prices[1].storeID,
@@ -530,8 +530,8 @@ class NetworkService: ObservableObject {
                 category: products[3].category
             ),
             Deal(
-                title: "Tech Tuesday",
-                description: "Weekly tech deal on wireless earbuds with noise cancellation",
+                title: "Wireless Earbuds Deal",
+                description: "Special weekly discount on true wireless earbuds",
                 productID: products[2].id,
                 productName: products[2].name,
                 storeID: products[2].prices[2].storeID,
@@ -543,8 +543,8 @@ class NetworkService: ObservableObject {
                 category: products[2].category
             ),
             Deal(
-                title: "Home Improvement Sale",
-                description: "Advanced cordless vacuum cleaner at special price",
+                title: "Home Cleaning Sale",
+                description: "Cordless vacuum cleaner at special discounted price",
                 productID: products[6].id,
                 productName: products[6].name,
                 storeID: products[6].prices[2].storeID,

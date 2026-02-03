@@ -290,13 +290,13 @@ struct ReviewRow: View {
 
 #Preview {
     ProductDetailView(product: Product(
-        name: "iPhone 15 Pro",
-        description: "Latest Apple smartphone",
+        name: "Flagship Smartphone",
+        description: "Premium smartphone with advanced features",
         category: .electronics,
         imageURL: "iphone.circle.fill",
         prices: [
-            StorePrice(storeName: "Apple Store", storeID: UUID(), price: 999.00),
-            StorePrice(storeName: "Amazon", storeID: UUID(), price: 949.00)
+            StorePrice(storeName: "TechHub Premium", storeID: UUID(), price: 999.00),
+            StorePrice(storeName: "ShopZone", storeID: UUID(), price: 949.00)
         ],
         averageRating: 4.8,
         reviewCount: 1250
